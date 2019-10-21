@@ -1,0 +1,51 @@
+p{
+    font-weight: 900;
+    text-align: center;
+}
+
+body{
+    font-family: 'Bubblegum Sans';
+    font-size: 60px;
+    color: rebeccapurple;
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.w3-row img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#texto{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#icone{
+    padding-top: 15px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+#icone:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+#icone2{
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+#icone2:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
